@@ -258,7 +258,7 @@ The hash of Jon’s password was saved and cracked using John the Ripper.
 ### FLAG 2
 
     meterpreter > cat flag2.txt
-    flag{sam_database_elevated_access}
+    <<FLAG_2>>
 
 ### FLAG 3
 
