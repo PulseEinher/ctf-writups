@@ -84,13 +84,17 @@ The user was switched to the “mission1 ”user using these credentials:
     mission1@linuxagency:/home/agent47$ whoami
     mission1
 
-The Mission2 flag was captured from the “/home/mission1” directory:
+---
+
+### Mission 2
 
     mission1@linuxagency:/home/agent47$ cd /home/mission1
     mission1@linuxagency:~$ ls
     <<MISSION2_FLAG>>
 
-The Mission3 flag was captured from the “/home/mission2” directory:
+---
+
+### Mission 3
 
     mission1@linuxagency:~$ su mission2
     Password: 
@@ -98,7 +102,9 @@ The Mission3 flag was captured from the “/home/mission2” directory:
     mission2@linuxagency:~$ cat flag.txt 
     <<MISSION3_FLAG>>
 
-The Mission4 flag was captured from the “/home/mission3” directory:
+---
+
+### Mission 4
 
     mission2@linuxagency:~$ su mission3
     Password: 
@@ -106,7 +112,9 @@ The Mission4 flag was captured from the “/home/mission3” directory:
     mission3@linuxagency:~$ cat flag.txt -A
     <<MISSION4_FLAG>>^MI am really sorry man the flag is stolen by some thief's.
 
-The Mission5 flag was captured from the “/home/mission4/flag” directory:
+---
+
+### Mission 5
 
     mission3@linuxagency:~$ su mission4
     Password: 
@@ -115,7 +123,9 @@ The Mission5 flag was captured from the “/home/mission4/flag” directory:
     mission4@linuxagency:~/flag$ cat flag.txt 
     <<MISSION5_FLAG>>
 
-The Mission6 flag was captured from the “/home/mission5” directory:
+---
+
+### Mission 6
 
     mission4@linuxagency:~/flag$ su mission5
     Password: 
@@ -131,7 +141,9 @@ The Mission6 flag was captured from the “/home/mission5” directory:
     mission5@linuxagency:~$ cat .flag.txt 
     <<MISSION6_FLAG>>
 
-The Mission7 flag was captured from the “/home/mission6/.flag” directory:
+---
+
+### Mission 7
 
     mission5@linuxagency:~$ su mission6
     Password: 
@@ -148,7 +160,9 @@ The Mission7 flag was captured from the “/home/mission6/.flag” directory:
     mission6@linuxagency:~/.flag$ cat flag.txt 
     <<MISSION7_FLAG>>
 
-The Mission8 flag was captured from the “/home/mission7” directory:
+---
+
+### Mission 8
 
     mission6@linuxagency:~/.flag$ su mission7
     Password: 
@@ -157,7 +171,9 @@ The Mission8 flag was captured from the “/home/mission7” directory:
     mission7@linuxagency:/home/mission7$ cat flag.txt 
     <<MISSION8_FLAG>>
 
-The Mission9 flag was captured from the “/” directory:
+---
+
+### Mission 9
 
     mission7@linuxagency:/home/mission7$ su mission8
     Password: 
@@ -169,7 +185,9 @@ The Mission9 flag was captured from the “/” directory:
 
 The Mission9 flag was not located in the expected directory and was instead identified using the find utility.
 
-The Mission10 flag was captured from the “/home/mission9” directory:
+---
+
+### Mission 10
 
     mission8@linuxagency:~$ su mission9
     Password: 
@@ -183,7 +201,9 @@ The Mission10 flag was captured from the “/home/mission9” directory:
     mission1098
     mission108
 
-The Mission11 flag was captured from the “/home/mission10/folder/L4D8/L3D7/L2D2/L1D10” directory:
+---
+
+### Mission 11
 
     mission9@linuxagency:~$ su mission10
     Password: 
@@ -193,7 +213,9 @@ The Mission11 flag was captured from the “/home/mission10/folder/L4D8/L3D7/L2D
     mission10@linuxagency:~$ cat folder/L4D8/L3D7/L2D2/L1D10/flag.txt
     <<MISSION11_FLAG>>
 
-The Mission12 flag was captured from the “/home/mission11” directory:
+---
+
+### Mission 12
 
     mission10@linuxagency:~$ su  mission11
     Password: 
@@ -205,7 +227,9 @@ The Mission12 flag was captured from the “/home/mission11” directory:
 
 The Mission12 flag was stored in a flag variable in the .bashrc file as a reverse Base64 encoded string.
 
-The Mission13 flag was captured from the “/home/mission12” directory:
+---
+
+### Mission 13
 
     mission11@linuxagency:~$ su mission12
     Password: 
@@ -222,7 +246,9 @@ The Mission13 flag was captured from the “/home/mission12” directory:
     mission12@linuxagency:~$ cat flag.txt 
     <<MISSION13_FLAG>>
 
-The Mission14 flag was captured from the “/home/mission13” directory:
+---
+
+### Mission 14
 
     mission12@linuxagency:~$ su mission13
     Password: 
@@ -240,7 +266,9 @@ Decrypt a Message - Cipher Identifier - Online Code Recognizer
 Tool to identify/recognize the type of encryption/encoding applied to a message (more 200 ciphers/codes are…  
 www.dcode.fr
 
-The Mission15 flag was captured from the “/home/mission14” directory:
+---
+
+### Mission 15
 
     mission13@linuxagency:~$ su mission14
     Password: 
@@ -248,9 +276,9 @@ The Mission15 flag was captured from the “/home/mission14” directory:
     mission14@linuxagency:~$ cat flag.txt 
     01101101011010010111001101110011011010010110111101101110001100010011010101111011011001100110001100110100001110010011000100110101011001000011100000110001001110000110001001100110011000010110010101100110011001100011000000110001001100010011100000110101011000110011001100110101001101000011011101100110001100100011010100110101001110010011011001111101
 
-The ASCII string, when decoded using the online tool, revealed the Mission15 flag.
+---
 
-The Mission16 flag was captured from the “/home/mission15” directory:
+### Mission 16
 
     mission14@linuxagency:~$ su mission15
     Password: 
@@ -258,9 +286,9 @@ The Mission16 flag was captured from the “/home/mission15” directory:
     mission15@linuxagency:~$ cat flag.txt 
     6D697373696F6E31367B38383434313764343030333363346332303931623434643763323661393038657D
 
-The ASCII string, when decoded using the online tool, revealed the Mission16 flag.
+---
 
-The Mission17 flag was captured from the “/home/mission16” directory:
+### Mission 17
 
     mission15@linuxagency:~$ su mission16
     Password: 
@@ -271,13 +299,9 @@ The Mission17 flag was captured from the “/home/mission16” directory:
     mission16@linuxagency:~$ ./flag 
     <<MISSION17_FLAG>>
 
-Note -> All the further codes were executed using the following online compiler:
+---
 
-OneCompiler - Write, run and share code online | Free online compiler with 100+ languages and…  
-One Compiler helps over 12.8 million users worldwide write code online.  
-onecompiler.com
-
-The Mission18 flag was captured from the “/home/mission17” directory:
+### Mission 18
 
     mission16@linuxagency:~$ su mission17
     Password: 
@@ -299,9 +323,9 @@ The Mission18 flag was captured from the “/home/mission17” directory:
         }
     }
 
-The JAVA code, when executed using the online compiler, revealed the Mission18 flag.
+---
 
-The Mission19 flag was captured from the “/home/mission18” directory:
+### Mission 19
 
     mission17@linuxagency:~$ su mission18
     Password: 
@@ -320,9 +344,9 @@ The Mission19 flag was captured from the “/home/mission18” directory:
     encrypted = encryptDecrypt("73))354kc!;j8<nk<ol8i;9lhh>bjb<m;nibohon8m'")
     puts "#{encrypted}"
 
-The RUBY code, when executed using the online compiler, revealed the Mission19 flag.
+---
 
-The Mission20 flag was captured from the “/home/mission19” directory:
+### Mission 20
 
     mission18@linuxagency:~$ su mission19
     Password: 
@@ -342,9 +366,9 @@ The Mission20 flag was captured from the “/home/mission19” directory:
         return 0;
     }
 
-The C code, when executed using the online compiler, revealed the Mission20 flag.
+---
 
-The Mission21 flag was captured from the “/home/mission20” directory:
+### Mission 21
 
     mission19@linuxagency:~$ su mission20
     Password: 
@@ -356,45 +380,41 @@ The Mission21 flag was captured from the “/home/mission20” directory:
         print(flag[i], end = "");
     print()
 
-The PYTHON code, when executed using the online compiler, revealed the Mission20 flag.
+---
 
-After the user was switched, a primitive shell was spawned, when the shell was upgraded using the Python utility, the Mission21 flag was revealed:
+### Mission 22
 
     mission20@linuxagency:~$ su mission21
     Password: 
     $ python3 -c 'import pty; pty.spawn("/bin/bash")'
     <<MISSION22_FLAG>>
 
-The Mission23 flag was captured from the “/home/mission22” directory:
+---
+
+### Mission 23
 
     mission21@linuxagency:~$ su mission22
     Password: 
-    Python 3.6.9 (default, Oct  8 2020, 12:12:24) 
-    [GCC 8.4.0] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
     >>> import pty;
     >>> pty.spawn("/bin/bash")
     mission22@linuxagency:/home/mission20$ cd /home/mission22
     mission22@linuxagency:~$ cat flag.txt 
     <<MISSION23_FLAG>>
 
-After the user was switched, a restricted Python shell was spawned, and it was escaped by importing a Bash shell.
+---
 
-The Mission24 flag was captured from the localhost service:
+### Mission 24
 
     mission22@linuxagency:~$ su mission23
     Password: 
     mission23@linuxagency:/home/mission22$ cd /home/mission23
-    mission23@linuxagency:~$ ls
-    message.txt
-    mission23@linuxagency:~$ cat message.txt 
-    The hosts will help you.
-    [OPTIONAL] Maybe you will need curly hairs.
     mission23@linuxagency:~$ ss -tuln
     mission23@linuxagency:~$ curl 127.0.0.1:80 | grep "mission24"
     <<MISSION24_FLAG>>
 
-The Mission25 flag was captured from the “/home/mission24” directory:
+---
+
+### Mission 25
 
     mission23@linuxagency:~$ su mission24
     Password: 
@@ -403,7 +423,9 @@ The Mission25 flag was captured from the “/home/mission24” directory:
     mission24@linuxagency:~$ ./bribe 
     <<MISSION25_FLAG>>
 
-The Mission26 flag was captured from the “/home/mission25” directory:
+---
+
+### Mission 26
 
     mission24@linuxagency:~$ su mission25
     Password: 
@@ -411,14 +433,18 @@ The Mission26 flag was captured from the “/home/mission25” directory:
     mission25@linuxagency:~$ cat flag.txt 
     <<MISSION26_FLAG>>
 
-The Mission27 flag was captured from the “/home/mission26” directory:
+---
+
+### Mission 27
 
     mission25@linuxagency:~$ su mission26
     Password: 
     mission26@linuxagency:/home/mission25$ strings flag.jpg | grep "mission27"
     <<MISSION27_FLAG>>
 
-The Mission28 flag was captured from the “/home/mission27” directory:
+---
+
+### Mission 28
 
     mission26@linuxagency:~$ su mission27
     Password: 
@@ -427,59 +453,24 @@ The Mission28 flag was captured from the “/home/mission27” directory:
     mission27@linuxagency:/home/mission26$ strings flag | grep "mission28"
     <<MISSION28_FLAG>>
 
-The Mission29 flag was captured from the “/home/mission28” directory:
+---
+
+### Mission 29
 
     mission27@linuxagency:~$ su mission28
     Password: 
     mission28@linuxagency:/home/mission27$ cat txt.galf 
     <<MISSION29_FLAG>>
 
-The Mission30 flag was captured from the “/home/mission29/bludit” directory:
+---
+
+### Mission 30
 
     mission28@linuxagency:~$ su mission29
     Password: 
     mission29@linuxagency:/home/mission28$ cd /home/mission29/bludit
     mission29@linuxagency:~$ cat .htpasswd | grep "mission30"
     <<MISSION30_FLAG>>
-
-The Victor flag was captured from the “/home/mission30/Escalator” directory:
-
-    mission30@linuxagency:~/Escalator$ git log
-    commit e0b807dbeb5aba190d6307f072abb60b34425d44
-    Author: root <root@Xyan1d3>
-    Date:   Mon Jan 11 15:36:40 2021 +0530
-
-        Your flag is <<VICTOR_FLAG>>
-
----
-
-## Cleanup
-
-1. Lateral movement via repeated su missionX transitions should be correlated in /var/log/auth.log, and abnormal session traces across chained users should be cleaned to reduce visibility of privilege hopping.  
-2. Temporary escalation artifacts such as /tmp/random.py, modified PATH/PYTHONPATH, and variables like pocket=money should be removed or reset to eliminate clear exploitation footprints.  
-3. The cron-exploited script /opt/scripts/47.sh should be restored to its original state, removing any injected reverse shell payloads used during the writable window.  
-4. All shells spawned via GTFOBins (zip, git, less, vim) and cron-triggered reverse connections should be terminated, ensuring no lingering elevated sessions remain active.  
-5. Sensitive data accessed during escalation — like id_rsa, decoded credentials from logs, and outputs from SUID base64 abuse—should be deleted from attacker-accessible paths.  
-6. Docker escape traces, including /tmp/docker usage, socket interaction, and host mount (/mnt via chroot), should be reviewed and cleaned to remove evidence of container-to-host compromise.  
-
----
-
-## Remediations
-
-1. Enforce strict privilege boundaries by removing unnecessary su access between mission users and auditing PAM/sudo configurations to prevent unrestricted lateral movement across accounts.  
-2. Secure cron job execution by preventing writable script windows (e.g., /opt/scripts/47.sh), enforcing root-only ownership, and avoiding periodic overwrites that expose race-condition abuse opportunities.  
-3. Harden sudo configurations by removing dangerous GTFOBins mappings (zip, git, less, vim) and restricting execution contexts to prevent shell escapes via legitimate binaries.  
-4. Prevent environment-based privilege escalation by disabling SETENV where not required and restricting user-controlled variables like PYTHONPATH that enable module hijacking.  
-5. Restrict access to sensitive system components such as /var/run/docker.sock, and avoid exposing Docker binaries inside containers to eliminate container escape vectors.  
-
----
-
-## Conclusion
-
-We are done with the machine……….
-
-Let’s move to the next, till then  
-Have a good day (night too)
 
 ---
 
