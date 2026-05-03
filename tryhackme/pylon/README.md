@@ -292,11 +292,6 @@ lone@pylon:~$ cat user1.txt
 <<USER1_FLAG>>
 ```
 
-> **Note:** The easiest way to gain root privileges and capture the other flags was to exploit the PwnKit vulnerability. The details of the vulnerability and its exploitation can be found here:
-> [Try Hack Me — Gaming Server (PwnKit Reference)](https://pulse-einher.medium.com)
->
-> The intended method is documented below.
-
 ---
 
 ## GPG Decryption — Recovering `pood` Credentials
